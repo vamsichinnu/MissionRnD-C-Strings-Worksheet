@@ -13,7 +13,7 @@ NOTES:
 
 char KthIndexFromEnd(char *str, int K) {
 	int i = 0;
-	if (str[K] != '\0'&&K >= 0)
+	if (str!=""&&K >= 0)
 	{
 		if (str)
 		{
@@ -32,5 +32,4 @@ char KthIndexFromEnd(char *str, int K) {
 	{
 		return '\0';
 	}
-
 }
