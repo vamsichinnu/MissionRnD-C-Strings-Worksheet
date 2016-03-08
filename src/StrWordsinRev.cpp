@@ -31,7 +31,7 @@ void str_words_in_rev(char *input, int len){
 		if ((input[k + 1] == ' ') || (input[k + 1] == '\0'))
 		{
 			reverse(input, p, k);
-			p = k + 1;
+			p = k + 2;
 
 		}
 	}
