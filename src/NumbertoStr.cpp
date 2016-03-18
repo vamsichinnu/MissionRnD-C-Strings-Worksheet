@@ -19,8 +19,7 @@ NOTES: Don't create new string.
 
 #include <stdio.h>
 
-
-void number_to_str(float number, char *str,int afterdecimal){
+void number_to_str(float number, char *str, int afterdecimal){
 	int i, temp = 1, j = 0, temp1 = 0;
 	while (j != afterdecimal)
 	{
@@ -51,5 +50,5 @@ void number_to_str(float number, char *str,int afterdecimal){
 		}
 	}
 	str[i] = '\0';
-	
+
 }
